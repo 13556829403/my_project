@@ -5,14 +5,15 @@ Vue.use(VueRouter)
 
 // 引入路由组件
 import Login from '../views/Login'
+import Login2 from '../views/Login2'
 import Home from '../views/Home'
 import HomeHeader from '../views/home/HomeHeader.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'login',
-    component: Login,
+    name: 'Login2',
+    component: Login2,
   },
   {
     path: '/home',
