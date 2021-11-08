@@ -12,8 +12,8 @@ import HomeHeader from '../views/home/HomeHeader.vue'
 const routes = [
   {
     path: '/',
-    name: 'Login2',
-    component: Login2,
+    name: 'Login',
+    component: Login,
   },
   {
     path: '/home',
