@@ -75,6 +75,7 @@ export default {
       this.$refs.loginForm.validate((valid) => {
           if (valid) {
             alert('submit!');
+            this.$router.push('/home')
           } else {
             this.$message.error('请根据提示，检查输入项后重新提交');
             return false;
